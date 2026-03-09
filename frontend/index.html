@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Movie Recommendation System</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>🎬 AI Movie Recommendation System</h1>
+
+<div class="search-box">
+
+<input id="movieInput" placeholder="Enter movie name" onkeyup="autocomplete()">
+
+<button onclick="getRecommendations()">Recommend</button>
+
+</div>
+
+<div id="suggestions"></div>
+
+<h2>🔥 Trending Movies</h2>
+
+<div id="trending" class="movie-container"></div>
+
+<h2>Recommendations</h2>
+
+<div id="results" class="movie-container"></div>
+
+<footer>
+
+<p>Movie data provided by TMDB</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
